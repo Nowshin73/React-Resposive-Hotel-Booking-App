@@ -1,0 +1,119 @@
+.searchitems{
+display: flex;
+border: 1px solid gray;
+padding: 1rem 1rem;
+border-radius: 5px;
+}
+.searchitem-container{
+    display: flex;
+    gap: 1rem;
+  justify-content: baseline;
+}
+.si-img{
+    width: 250px;
+    height: 250px;
+}
+.si-desc{
+    display: grid;
+}
+.si-title{
+    color: #005b9d;
+}
+.si-desc>span:nth-child(3){
+    font-weight: 600;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 4px;
+height: max-content;
+    width: max-content;
+}
+.si-desc>span:nth-child(4){
+    font-weight: bold;
+}
+.si-desc>span:nth-child(6){
+    font-weight: bold;
+    color: green;
+}
+.si-desc>span:nth-child(7){
+    color: green;
+    font-weight: 600;
+}
+.si-details{
+    display: grid;
+    float: right;
+}
+.si-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.sirate>span{
+    background: #044d80;
+    color: white;
+    padding: 5px ;
+    
+}
+.sid-txts{
+    display: grid;
+}
+.sid-txts>span:nth-child(1){
+   font-size: 30px;
+   text-align: right;
+}
+.sid-txts>span:nth-child(2){
+    font-size: 15px;
+    text-align: right;
+    color: rgb(81, 80, 80);
+}
+.sid-txts>button{
+    border: 2px solid #f0f4f8;
+    background:#005b9d;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-style:dashed;
+    padding: 10px;
+}
+.sid-txts>button:hover{
+    background:white;
+    color: #005b9d;
+    border: 2px solid #005b9d;
+    border-style:dashed;
+}
+.sid-txts>button:active{
+    background:white;
+    color: #005b9d;
+    border: 2px solid #005b9d;
+    border-style:dashed;
+}
+@media (max-width:650px) {
+    .searchitem-container{
+        display: grid;
+        gap: 1rem;
+      justify-content: center;
+    }
+    .si-img{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media (max-width:430px) {
+    .searchitems{
+        border: none;
+    }
+    .searchitem-container{
+        transform: scale(0.95);
+        border: 1px solid gray;
+        padding: 1rem 1rem;
+    }
+}
+@media (max-width:366px) {
+    .searchitems{
+        border: none;
+    }
+    .searchitem-container{
+        transform: scale(0.9);
+        border: 1px solid gray;
+        padding: 1rem 1rem;
+    }
+}

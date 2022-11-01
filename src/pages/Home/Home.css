@@ -1,0 +1,6 @@
+.h-header{
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 46, 125);
+    color: white;
+}

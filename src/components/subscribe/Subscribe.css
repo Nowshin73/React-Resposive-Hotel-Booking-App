@@ -1,0 +1,89 @@
+.subscribe1{
+    display: grid;
+    justify-content: center;
+    background: #07214f;
+    color: white;
+    padding: 1rem 2rem;
+}
+.sub-left{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.sub-heading{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.subinput{
+width: 300px;
+height: 35px;
+}
+.sub-btn{
+ width: 100px;
+height: 40px;
+color: white;
+background: #0a95f8;
+border: none;
+cursor: pointer;
+}
+.sub-btn:hover{
+   background: white;
+   color: #0a95f8;
+   border: 2px solid #0a95f8;;
+   }
+.subr-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.sub-check{
+    padding: 5px;
+  }
+  .sub-check>span{
+    font-size: small;
+  }
+.sub-right{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+}
+.subrdiv-btn{
+    display: flex;
+    justify-content: center;
+}
+.subr-btn{
+    width: 200px;
+   height: 40px;
+   background: #002e7d;
+   color: white;
+   border: 3px solid #0a95f8;
+   cursor: pointer;
+   }
+   .subr-btn:hover{
+      background: white;
+      color: #0a95f8;
+      border: 2px solid #0a95f8;;
+      }
+.subscribe2{
+    display: grid;
+    justify-content: center;
+    background: #002e7d;
+    color: white;
+    padding: 1rem 2rem;
+}
+@media (max-width:580px) {
+    .subr-links{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+    
+}
